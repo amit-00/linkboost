@@ -1,4 +1,15 @@
-remote_theme: just-the-docs
+# _config.yml
+
+# 1️⃣ Remove or null out any `theme:` entry
+theme: null
+
+# 2️⃣ Point to the Just the Docs repo
+remote_theme: pmarsceill/just-the-docs
+
+# 3️⃣ Enable the remote‐theme plugin (for local builds)
+plugins:
+  - jekyll-remote-theme
+
 
 # Enable or disable the site search
 # Supports true (default) or false
