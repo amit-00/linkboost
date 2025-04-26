@@ -3,9 +3,6 @@ title: Outline
 nav_order: 2
 ---
 
-- TOC
-  {:toc}
-
 # Outline
 
 ## 🧩 1. Feature Specification & Scope Planning
