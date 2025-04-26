@@ -3,10 +3,6 @@
 # 2️⃣ Point to the Just the Docs repo
 remote_theme: pmarsceill/just-the-docs
 
-# 3️⃣ Enable the remote‐theme plugin (for local builds)
-plugins:
-  - jekyll-remote-theme
-
 # Enable or disable the site search
 # Supports true (default) or false
 search_enabled: true
