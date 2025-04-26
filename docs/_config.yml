@@ -1,8 +1,5 @@
 # _config.yml
 
-# 1️⃣ Remove or null out any `theme:` entry
-theme: null
-
 # 2️⃣ Point to the Just the Docs repo
 remote_theme: pmarsceill/just-the-docs
 
