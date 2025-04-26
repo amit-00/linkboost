@@ -3,6 +3,9 @@ title: Linkboost
 nav_order: 1
 ---
 
+- TOC
+  {:toc}
+
 # LinkBoost
 
 A smart, lightweight link-in-bio tool tailored for niche creators (e.g., book reviewers, tech gadget reviewers, indie musicians). LinkBoost integrates affiliate links, dynamic content embeds, conversion tracking, and AI-powered optimization suggestions to help creators maximize revenue and engagement.

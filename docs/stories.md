@@ -3,6 +3,9 @@ title: Stories
 nav_order: 3
 ---
 
+- TOC
+  {:toc}
+
 # Stories
 
 ## 🧱 EPIC 1: Project Setup & Tech Foundation
