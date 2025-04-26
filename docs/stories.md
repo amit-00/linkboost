@@ -1,3 +1,8 @@
+---
+title: Stories
+nav_order: 2
+---
+
 # Stories
 
 ## 🧱 EPIC 1: Project Setup & Tech Foundation

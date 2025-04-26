@@ -1,3 +1,8 @@
+---
+title: Outline
+nav_order: 1
+---
+
 # Outline
 
 ## 🧩 1. Feature Specification & Scope Planning
@@ -77,6 +82,7 @@ The MVP should be **laser-focused on link monetization + dynamic content**. Here
 
 - Use **Next.js dynamic routes** for each user's page (`/u/username`)
 - Component structure:
+
   ```
   /components
     /blocks
@@ -85,6 +91,7 @@ The MVP should be **laser-focused on link monetization + dynamic content**. Here
       TextBlock.tsx
 
   ```
+
 - Enable user configs to define the "block stack" → Store JSON schema per user
 
 ### b. **Metadata, Click Tracking & Conversions**
@@ -95,10 +102,12 @@ The MVP should be **laser-focused on link monetization + dynamic content**. Here
   - Source (affiliate, internal, etc.)
   - Tags (optional)
 - Track clicks via redirect middleware:
+
   ```
   /go/[linkId] → logs click → redirects to real URL
 
   ```
+
 - Conversion tracking via:
   - UTM + webhook callbacks (or cookie-based if advanced)
 
