@@ -10,5 +10,9 @@ export default async function PrivatePage() {
     redirect('/auth/login')
   }
 
-  return <p>Hello {data.user.email}</p>
+  return (
+    <div className="max-w-7xl mx-auto">
+      <p>Hello {data.user.email}</p>
+    </div>
+  )
 }
