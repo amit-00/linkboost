@@ -1,13 +1,14 @@
 import Link from "next/link";
-import { login } from "./actions";
+import { signup } from "./actions";
 
-function Login() {
+function Register() {
 
   return (
     <div className="min-h-screen flex justify-center text-center">
       <form className="flex flex-col px-8 py-20 w-lg">
-        <h1 className="text-4xl mb-8 font-bold">Log in to Linkboost</h1>
+        <h1 className="text-4xl mb-2 font-bold">Join Linkboost</h1>
         <fieldset className="fieldset">
+          <legend className="fieldset-legend mb-4 text-gray-500 text-sm font-medium">Sign up for free!</legend>
           
           {/* Email Input */}
           <label className="input validator w-full">
@@ -56,18 +57,18 @@ function Login() {
             Must be more than 8 characters, including
             <br />At least one number <br />At least one lowercase letter <br />At least one uppercase letter
           </p>
-          <button type="submit" formAction={login} className="btn btn-primary">Continue</button>
+          <button type="submit" formAction={signup} className="btn btn-primary">Continue</button>
 
           <p>OR</p>
 
-          <button className="btn">Sign in with Google</button>
-          <button className="btn">Sign in with Apple</button>
+          <button className="btn">Sign up with Google</button>
+          <button className="btn">Sign up with Apple</button>
 
-          <p>Dont have an account? <span className="underline text-primary"><Link href="/auth/register">Sign Up</Link></span></p>
+          <p>Already have an account? <span className="underline text-primary"><Link href="/auth/login">Log In</Link></span></p>
         </fieldset>
       </form>
     </div>
   )
 }
 
-export default Login;
+export default Register;
